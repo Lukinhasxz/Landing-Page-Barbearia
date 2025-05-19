@@ -9,7 +9,7 @@ html {
 }
 body {
     background-color: rgb(20, 20, 20);
-    color: gold;
+    color: goldenrod;
 }
 .header {
     display: flex;
@@ -30,10 +30,10 @@ body {
     font-weight: bold;
     border-radius: 10px;
     font-size: medium;
-    box-shadow: 0px 0px 3px gold;
+    box-shadow: 0px 0px 3px goldenrod;
 }
 .header a:hover {
-    box-shadow: 0px 0px 7px gold;
+    box-shadow: 0px 0px 7px goldenrod;
     color: white;
     background-color: rgba(240, 204, 0, 0.938);
     transition: all 0.6s ease;
@@ -49,7 +49,7 @@ body {
     gap: 10px;
 }
 .links a {
-    color: gold;
+    color: goldenrod;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -59,7 +59,7 @@ body {
     border-color: white;
     transition: all 0.6s ease;
 }
-#sobre, #galeria, #preços, #serviços{
+#sobre, #galeria, #preços, #serviços, #depoimentos, #faq, #contatos{
     text-align: center;
     margin-top: 100px;
     line-height: 1.6;
@@ -93,6 +93,27 @@ h2 {
     transform: translateY(5px);
     box-shadow: 0px 0px 15px gold;
     transition: all 0.7s ease;
+}
+.dpts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 35px;
+    gap: 20px;
+    font-weight: bolder;
+}
+.carp {
+    background: linear-gradient(135deg, #000000, #3a3a3a);
+    box-shadow: 2px 7px 10px #3a3a3a;
+    border-radius: 5%;
+    padding: 15px;
+}
+.carp:hover {
+    box-shadow: 2px 7px 10px goldenrod;
+    transform: translateY(5px);
+    transition: all 0.6s ease;
+}
+.dpts p {
+    color: white;
 }
 .cartoes-preços {
     display: flex;
@@ -170,7 +191,7 @@ form h2 {
 }
 i {
     margin: 5px;
-    color: gold;
+    color: goldenrod;
 }
 i:hover {
     transition: all 0.5s ease;
