@@ -135,13 +135,16 @@ form:hover {
 form label {
     font-weight: bolder;
     font-size: larger;
+    margin: 10px;
 }
 form input, #escolhas, #cmts{
+    color: goldenrod;
     padding: 10px;
-    color: black;
     outline: none;
     font-weight: bolder;
     border-radius: 10px;
+    border: solid 3px ;
+    background: linear-gradient(135deg, #000000, #3a3a3a);
 }
 form h2 {
     text-align: center;
@@ -153,8 +156,8 @@ form h2 {
     border-radius: 10px;
 }
 .card:hover {
-    color: gold;
-    border: solid gold;
+    color: goldenrod;
+    border: solid goldenrod;
     transition: all 0.3s ease;
 }
 .footer {
@@ -197,5 +200,11 @@ a {
     }
     .card {
         font-size: small;
+    }
+    form label{
+        font-size: small;
+    }
+    form h2 {
+        font-size: medium;
     }
 }
