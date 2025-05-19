@@ -228,4 +228,7 @@ a {
     form h2 {
         font-size: medium;
     }
+    .dpts {
+        grid-template-columns: 1fr;
+    }
 }
